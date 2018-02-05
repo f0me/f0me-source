@@ -1,0 +1,9 @@
+Building F0ME
+
+See doc/readme-qt.rst for instructions on building F0ME QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of F0ME.
+
+See doc/build-*.txt for instructions on building f0med,
+the intended-for-services, no-graphical-interface, reference
+implementation of F0ME.
