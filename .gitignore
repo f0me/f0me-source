@@ -3,6 +3,7 @@ src/f0me
 src/f0med
 src/test_f0me
 src/build.h
+src/obj
 .*.swp
 *.*~*
 *.bak
