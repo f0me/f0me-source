@@ -145,3 +145,22 @@ disable screen reader functionality for Qt apps:
     sudo apt-get remove qt-at-spi
 
 .. _`launchpad bug 857790`: https://bugs.launchpad.net/ubuntu/+source/qt-at-spi/+bug/857790
+
+
+Possible errors
+===============
+error:
+::
+    /bin/sh: 1: ./build_detect_platform: Permission denied
+solution:
+::
+    cd src/
+    cd leveldb/
+    chmod +x build_detect_platform
+
+error:
+::
+    src/net.cpp:19:32: fatal error: miniupnpc/miniwget.h: No such file or directory
+solution:
+::
+    sudo apt-get install libqt4-dev libminiupnpc-dev
