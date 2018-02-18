@@ -136,7 +136,7 @@ Produktet indeholder software, som er udviklet af OpenSSL Project til brug i Ope
     <message>
         <location line="+0"/>
         <source>Could not write to file %1.</source>
-        <translation>Kunne ikke skrive til fil% 1.</translation>
+        <translation>Kunne ikke skrive til fil %1.</translation>
     </message>
 </context>
 <context>
@@ -555,7 +555,7 @@ Produktet indeholder software, som er udviklet af OpenSSL Project til brug i Ope
     <message>
         <location line="+413"/>
         <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
-        <translation>Renter.&lt;br&gt; Din andel er% 1 &lt;br&gt; Netværkets andel er% 2 &lt;br&gt; Forventet tid til at modtage rente %3</translation>
+        <translation>Renter.&lt;br&gt; Din andel er %1 &lt;br&gt; Netværkets andel er %2 &lt;br&gt; Forventet tid til at modtage rente %3</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1812,7 +1812,7 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     <message>
         <location line="+1"/>
         <source>Are you sure you want to send %1?</source>
-        <translation>Er du sikker på du vil sende% 1?</translation>
+        <translation>Er du sikker på du vil sende %1?</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2356,7 +2356,7 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     <message>
         <location line="+3"/>
         <source>Confirming (%1 of %2 recommended confirmations)</source>
-        <translation>Bekræftelse (% 1 af% 2 anbefalede bekræftelser)</translation>
+        <translation>Bekræftelse ( %1 af %2 anbefalede bekræftelser)</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -2366,7 +2366,7 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     <message>
         <location line="+3"/>
         <source>Immature (%1 confirmations, will be available after %2)</source>
-        <translation>Umodne (% 1 bekræftelser, vil være tilgængelige efter% 2)</translation>
+        <translation>Umodne ( %1 bekræftelser, vil være tilgængelige efter %2)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2590,7 +2590,7 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     <message>
         <location line="+0"/>
         <source>Could not write to file %1.</source>
-        <translation>Kunne ikke skrive til filen% 1.</translation>
+        <translation>Kunne ikke skrive til filen %1.</translation>
     </message>
     <message>
         <location line="+100"/>
@@ -2731,7 +2731,7 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     <message>
         <location line="-5"/>
         <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds  </source>
-        <translation>Fejl: Denne transaktion kræver et transaktionsgebyr på mindst% s på grund af dens størrelse, kompleksitet, eller anvendelse af nylig modtaget midler</translation>
+        <translation>Fejl: Denne transaktion kræver et transaktionsgebyr på mindst %s på grund af dens størrelse, kompleksitet, eller anvendelse af nylig modtaget midler</translation>
     </message>
     <message>
         <location line="-87"/>
@@ -2786,7 +2786,7 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     <message>
         <location line="+117"/>
         <source>Error initializing database environment %s! To recover, BACKUP THAT DIRECTORY, then remove everything from it except for wallet.dat.</source>
-        <translation>Fejl initialisering database miljø% s! For at gendanne, BACKUP denne mappe, og derefter fjern alt bortset fra wallet.dat.</translation>
+        <translation>Fejl initialisering database miljø %s! For at gendanne, BACKUP denne mappe, og derefter fjern alt bortset fra wallet.dat.</translation>
     </message>
     <message>
         <location line="-20"/>
@@ -2851,7 +2851,7 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     <message>
         <location line="+83"/>
         <source>Invalid -tor address: &apos;%s&apos;</source>
-        <translation>Ugyldig-tor-adresse: &apos;% s&apos;</translation>
+        <translation>Ugyldig-tor-adresse: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2998,16 +2998,16 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s &quot;F0ME Alert&quot; admin@foo.com
 </source>
-        <translation>% s, skal du indstille et rpcpassword i konfigurationsfilen: 
-% s 
+        <translation>%s, skal du indstille et rpcpassword i konfigurationsfilen:
+%s
 Det anbefales at bruge følgende tilfældig adgangskode: 
 rpcuser = f0merpc  
-rpcpassword =% s  
+rpcpassword = %s
 (du behøver ikke at huske denne adgangskode)  
 Brugernavn og adgangskode må ikke være den samme.  
 Hvis filen ikke findes, skal du oprette den med filtilladelser ejer-læsbar-kun. 
 Det kan også anbefales at sætte alertnotify så du får besked om problemer; 
-for eksempel: alertnotify = echo%% s | mail-s &quot;F0ME Alert&quot; admin@foo.com 
+for eksempel: alertnotify = echo %%s | mail-s &quot;F0ME Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -3058,7 +3058,7 @@ for eksempel: alertnotify = echo%% s | mail-s &quot;F0ME Alert&quot; admin@foo.c
     <message>
         <location line="+2"/>
         <source>Execute command when a relevant alert is received (%s in cmd is replaced by message)</source>
-        <translation>Udfør kommando, når en relevant advarsel er modtaget (% s i cmd erstattes af meddelelse)</translation>
+        <translation>Udfør kommando, når en relevant advarsel er modtaget (%s i cmd erstattes af meddelelse)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3128,12 +3128,12 @@ for eksempel: alertnotify = echo%% s | mail-s &quot;F0ME Alert&quot; admin@foo.c
     <message>
         <location line="+95"/>
         <source>Wallet %s resides outside data directory %s.</source>
-        <translation>Wallet% s placeret udenfor data mappe% s.</translation>
+        <translation>Wallet %s placeret udenfor data mappe %s.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Cannot obtain a lock on data directory %s.  F0ME is probably already running.</source>
-        <translation>Kan ikke få en lås på data mappe% s. F0ME kører sikkert allerede.</translation>
+        <translation>Kan ikke få en lås på data mappe %s. F0ME kører sikkert allerede.</translation>
     </message>
     <message>
         <location line="-98"/>
@@ -3248,7 +3248,7 @@ for eksempel: alertnotify = echo%% s | mail-s &quot;F0ME Alert&quot; admin@foo.c
     <message>
         <location line="+122"/>
         <source>Unable to bind to %s on this computer. F0ME is probably already running.</source>
-        <translation>Kunne ikke binde sig til% s på denne computer. F0ME kører sikkert allerede.</translation>
+        <translation>Kunne ikke binde sig til %s på denne computer. F0ME kører sikkert allerede.</translation>
     </message>
     <message>
         <location line="-97"/>
@@ -3258,7 +3258,7 @@ for eksempel: alertnotify = echo%% s | mail-s &quot;F0ME Alert&quot; admin@foo.c
     <message>
         <location line="+55"/>
         <source>Invalid amount for -mininput=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>Ugyldigt beløb for-mininput = &lt;beløb&gt;: &apos;% s&apos;</translation>
+        <translation>Ugyldigt beløb for-mininput = &lt;beløb&gt;: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="+25"/>
