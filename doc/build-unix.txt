@@ -151,3 +151,19 @@ exploit even if a vulnerability is found, you can take the following measures:
     RW- R-- RW-
 
     The STK RW- means that the stack is readable and writeable but not executable.
+
+
+Troubleshooting
+---------------
+
+On some systems you may need to perform one or more of the following steps in order to be
+able to successfully complete the build process:
+
+    cd f0me-source # go to root dir
+    mkdir obj
+
+    apt-get install libqt4-dev libminiupnpc-dev
+
+    cd f0me-source # go to root dir
+    mkdir -p obj/zerocoin && chmod +x leveldb/build_detect_platform
+
